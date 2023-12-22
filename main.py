@@ -72,7 +72,6 @@ while True:
                 cv2.putText(frame, "NO MATCH!", (20, 450), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 3)
                 if cst == True:
                     # If the window was created before, close it when there is no match
-                    print("ok")
                     cv2.destroyWindow('Matched Image')
 
         # Display the video frame
